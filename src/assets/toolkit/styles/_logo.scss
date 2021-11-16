@@ -1,0 +1,23 @@
+@import 'mixins';
+
+.logo {
+  @include row;
+  align-items: center;
+  background-color: $dark;
+  height: 120px;
+  color: white;
+}
+
+.footer-logo {
+  @include center;
+  align-items: center;
+  background-color: $dark;
+  height: 120px;
+  color: white;
+  margin-left: -12rem;
+}
+
+.bonzai-image {
+  height: 80%;
+  margin: 4px;
+}

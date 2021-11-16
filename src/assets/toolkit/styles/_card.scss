@@ -1,0 +1,20 @@
+@import 'variables';
+@import 'typography';
+@import 'mixins';
+
+.card {
+  background: white;
+  height: 370px;
+  width: 1200px;
+  @include box-shadow;
+  @include row;
+  justify-content: space-between;
+  border-radius: $radius;
+}
+
+.card-text {
+  margin-right: 8rem;
+  @include center;
+  width: 500px;
+  align-self: baseline;
+}

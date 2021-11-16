@@ -1,0 +1,12 @@
+@import 'variables';
+@import 'typography';
+@import 'mixins';
+
+.header {
+  @include row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: $dark;
+  max-width: 1400px;
+}

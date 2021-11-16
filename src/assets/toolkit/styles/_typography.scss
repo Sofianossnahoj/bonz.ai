@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import 'variables';
+
+:root {
+  font-family: 'Questrial', sans-serif;
+  color: $softBlack;
+}
+
+h1 {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: medium;
+  font-size: 72px;
+}
+
+h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: medium;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  line-height: 150%;
+}

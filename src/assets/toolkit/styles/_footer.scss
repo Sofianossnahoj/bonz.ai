@@ -1,0 +1,13 @@
+@import 'variables';
+@import 'typography';
+@import 'mixins';
+
+.footer {
+  background-color: $dark;
+  height: 200px;
+  max-width: 1443px;
+  color: white;
+  @include row;
+  align-items: center;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,8 @@
+colors:
+  primary:
+    yellow: '#F9B554'
+    light: '#DBDEDE'
+    blueGrey: '#9F9FA9'
+    dark: '#594D4A'
+    softBlack: '#292827'
+    black: '#000000'

@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'typography';
+
+.label {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.input-field {
+  background-color: white;
+  min-width: 200px;
+  padding: 0.5rem;
+  border-style: solid;
+  border-color: $light;
+  border-width: 8px;
+}
+
+.search-field {
+  background-image: url('../../toolkit/images/search-icon.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: white;
+  min-width: 300px;
+  padding: 0.7rem;
+  border-style: solid;
+  border-color: $light;
+  border-width: 8px;
+}

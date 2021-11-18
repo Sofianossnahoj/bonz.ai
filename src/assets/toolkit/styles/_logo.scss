@@ -21,3 +21,11 @@
   height: 80%;
   margin: 4px;
 }
+
+.logo-slogan {
+  @include center;
+  background-color: rgb(110, 109, 109);
+  color: white;
+  align-items: flex-end;
+  padding-right: 4rem;
+}

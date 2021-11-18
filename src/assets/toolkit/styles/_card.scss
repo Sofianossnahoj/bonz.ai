@@ -2,19 +2,53 @@
 @import 'typography';
 @import 'mixins';
 
-.card {
+.info-card {
   background: white;
   height: 370px;
-  width: 1200px;
+  width: 80%;
   @include box-shadow;
   @include row;
   justify-content: space-between;
   border-radius: $radius;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: white;
+  height: 370px;
+  width: 80%;
+  @include box-shadow;
+  @include row;
+  margin-top: 10px;
+  justify-content: space-between;
+  border-radius: $radius;
+}
+.card-image {
+  height: 80%;
+  width: 50%;
+}
+.info-card-image {
+  width: 60%;
+  height: 100%;
+}
+.info-card-text {
+  margin: 4rem;
+  @include center;
+  width: 50%;
+  align-self: baseline;
 }
 
 .card-text {
-  margin-right: 8rem;
   @include center;
-  width: 500px;
+  max-width: 45%;
   align-self: baseline;
+}
+
+.card-list {
+  @include center;
+  align-self: center;
+  margin-right: 3rem;
+}
+.list-item {
+  margin: 10px;
 }

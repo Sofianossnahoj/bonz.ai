@@ -1,0 +1,13 @@
+@import 'variables';
+@import 'typography';
+@import 'mixins';
+
+.search-bar {
+  max-width: 1100px;
+  @include box-shadow;
+  @include row;
+  width: 1000px;
+  height: 70px;
+  margin: 0px;
+  padding: 0px;
+}
